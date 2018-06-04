@@ -15,7 +15,7 @@ MongoClient.connect(db.url, (err, database) => {
     // Make sure you add the database name and not the collection name
     datab = database.db("userdetails");
     require('./app/routes')(app, datab);
-    app.listen(port, () => {
+    app.listen(process.env.PORT || port, () => {
       console.log('We are live on ' + port);
     });               
   });
