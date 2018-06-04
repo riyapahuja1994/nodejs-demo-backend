@@ -1,0 +1,34 @@
+CSS - W3SCHOOLS
+CSS3 ANIMATION - W3SCHOOLS
+HTML - W3SCHOOLS
+(Try all the examples given there , it is quite straight forward and simple)
+
+CSS-TRICKS (This shall give you a clear understanding regarding the concepts explained in the above resources) - https://css-tricks.com/almanac/properties/a/animation/
+
+ANIMATE.CSS - (The class I used to implement animations, you can use other libraries too there are tons of them available use your own discretion and implement regarding your needs and requirements, this is totally your own choice and taste)
+
+CSS@KEYFRAMES - This is an important part of animation and learning to shape and animate elements using keyframes - https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp 
+You can refer blogs on medium.com or hongkiat or any other opensource resources out there to get your animation done (Or you can also write one on your own(Its quite simple) )
+
+Thank You.
+
+Hello Subbu,
+As per our discussion on call on Friday, I have planned KT sessions for Chennai team regarding animations.
+Following is the schedule for 3-day KT sessions.
+Please provide me the webex and audio bridge details for conducting the sessions.
+
+Session 1:
+1. Overview of CSS, HTML, angular techniques/shortcuts to apply CSS
+2. CSS Animations Concepts
+3. Examples of CSS animations
+4. CSS Libraries
+5. Hands-on examples
+
+Session 2:
+1. SVG Animations Concepts
+2. Sprite Sheet animations
+3. Hands-on for SVG animations
+
+Session 3:
+1. Other Useful information related to MVA animations
+2. Doubts and Queries for Session 1 and Session 2.
