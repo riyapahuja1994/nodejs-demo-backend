@@ -17,6 +17,21 @@ module.exports = function(app,db){
       });
     });
 
+    app.get('/notes', (req,res)=>{
+      const id = req.params.id;
+      const details = { '_id': new ObjectId(id)};
+      db.collection('notes').find({}).toArray((err,item)=>{
+        if(err)
+        { 
+          res.send({'error': 'An error has occurred'});
+        }
+        else
+        {
+          res.send(item);
+        }
+      });
+    });
+
     app.post('/notes', (req, res) => {
         console.log(req.body);
         const note = { text: req.body.body, title: req.body.title };
